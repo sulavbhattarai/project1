@@ -1084,11 +1084,11 @@ $('.view_coupon').click(function()
       $userfn = $ufn.' '.$uln;
       if($ustatus == "pending")
       {
-        echo '<tr><td><a href="javascript: var vaaaa = updateorder(); if(vaaaa == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)>'.$orderid.'</a></font></td>';
-          echo '<td><a href="javascript: var vaaab = updateorder(); if(vaaab == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)>'.$useer.'</a></font></td>';
-          echo '<td><a href="javascript: var vaaac = updateorder(); if(vaaac == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)>'.$userfn.'</a></font></td>';
-          echo '<td><a href="javascript: var vaaad = updateorder(); if(vaaad == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)>'.$uad.'</a></font></td>';
-          echo '<td><a href="javascript: var vaaae = updateorder(); if(vaaae == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)>'.$ustatus.'</a></font></td></tr>';
+        echo '<tr><td>'.$orderid.'</font></td>';
+          echo '<td>'.'<font color=rgb(255,255,255)>'.$useer.'</font></td>';
+          echo '<td>'.'<font color=rgb(255,255,255)>'.$userfn.'</font></td>';
+          echo '<td>'.'<font color=rgb(255,255,255)>'.$uad.'</font></td>';
+          echo '<td><a href="javascript: var vaaae = updateorder(); if(vaaae == true) {window.location.href = \'orderdelivered.php?order='.$orderid.'&\';}"><font color=rgb(255,255,255)><button>'.$ustatus.'</button></a></font></td></tr>';
       }
       else if($ustatus == "delivered")
       {

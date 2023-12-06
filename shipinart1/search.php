@@ -105,7 +105,7 @@
             	<ul>
             		<li><a href="ehome.php" class="active">HOME</a></li>
             		<li><a href="trackmyorder.php"> TRACK MY ORDER</a></li>
-            		<li><a href="#"> ABOUT DEVELOPERS</a></li>
+            		<li><a href="info.php"> ABOUT DEVELOPERS</a></li>
             		<label for="profile2" class="profile-dropdown">
 						<input type="checkbox" id="profile2">
 						<img src="https://cdn0.iconfinder.com/data/icons/avatars-3/512/avatar_hipster_guy-512.png">
@@ -229,7 +229,7 @@
 		        		<h2 class="ct-footer-list-header">Learn More</h2>
 				        <ul>
 				        	<li>
-				            	<a href="#">About us</a>
+				            	<a href="info.php">About us</a>
 				        	</li>
 				        	
 				        </ul>
@@ -260,7 +260,7 @@
 		       			<h2 class="ct-footer-list-header">Our Team</h2>
 				        <ul>
 				          	<li>
-				            	<a href="#">Developers</a>
+				            	<a href="info.php">Developers</a>
 				          	</li>
 				          	
 				        </ul>
@@ -291,7 +291,7 @@
 				        <h2 class="ct-footer-list-header">Estore</h2>
 				        <ul>
 					        <li>
-					            <a href="#">About Us</a>
+					            <a href="info.php">About Us</a>
 					        </li>
 					        <li>
 					            <a href="" onclick="alert('We will not be responsible if you give incorrect address. Products will be deleivered once on user confirmation. If user fails to receive, company is not responsible for it.')" >Trems and Conditions</a>

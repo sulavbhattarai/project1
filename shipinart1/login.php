@@ -98,7 +98,7 @@
 
     <head>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>E-Store - Online Shopping in nepal</title>
+    	<title>E-Store - Online Shopping in Pakistan</title>
         <link rel="stylesheet" type="text/css" href="estyle.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -170,7 +170,7 @@
             	<ul>
             		<li><a href="ehome.php" class="active">HOME</a></li>
             		<li><a href="trackmyorder.php"> TRACK MY ORDER</a></li>
-            		<li><a href="#"> ABOUT DEVELOPERS</a></li>
+            		<li><a href="info.php"> ABOUT DEVELOPERS</a></li>
             		<li><button type="button" class="btn btn-default btn-lg myLogin" id="signupBtn">SIGNUP</button></li>
             		<li><button type="button" class="btn btn-default btn-lg myLogin" id="loginBtn">LOGIN</button></li>
             	</ul>
@@ -495,7 +495,7 @@
 		        		<h2 class="ct-footer-list-header">Learn More</h2>
 				        <ul>
 				        	<li>
-				            	<a href="#">About us</a>
+				            	<a href="info.php">About us</a>
 				        	</li>
 				        	
 				        </ul>
@@ -526,7 +526,7 @@
 		       			<h2 class="ct-footer-list-header">Our Team</h2>
 				        <ul>
 				          	<li>
-				            	<a href="#">Developers</a>
+				            	<a href="info.php">Developers</a>
 				          	</li>
 				          	
 				        </ul>
@@ -557,7 +557,7 @@
 				        <h2 class="ct-footer-list-header">Estore</h2>
 				        <ul>
 					        <li>
-					            <a href="#">About Us</a>
+					            <a href="info.php">About Us</a>
 					        </li>
 					        <li>
 					            <a href="" onclick="alert('We will not be responsible if you give incorrect address. Products will be deleivered once on user confirmation. If user fails to receive, company is not responsible for it.')" >Trems and Conditions</a>
@@ -628,7 +628,8 @@
 		      		</div>
 		      		
 		      		<div class="inner-right">
-		        		<p>
+		        		<p>Copyright © 2019 EstoreCo.&nbsp;<a href="">Privacy Policy</a></p>
+		        		<p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by HMC Co. on <a href="" target="_blank">HMC.com</a></p>
 		      		</div>
 		    	</div>
 		  	</div>

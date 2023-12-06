@@ -3,7 +3,7 @@
 <html lang="en">
 	<head>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>E-Store - Online Shopping in nepal</title>
+    	<title>E-Store - Online Shopping in Pakistan</title>
         <link rel="stylesheet" type="text/css" href="estyle.css">
 
         <link href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />

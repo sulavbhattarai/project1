@@ -63,6 +63,15 @@
 					echo '<script>alert("Error ordering products. Please try later")</script>';
 					exit;
 				}
+				$query1 = 'SELECT * from products where product_id ='.'$prod_id';
+				$row1 = $result->fetch_assoc();
+				$stock = $row1['stock'];
+
+				$stock = $stock - $quan;
+
+				$query = "UPDATE products set stock='.$stock'.'where product_id ='.'$prod_id'";
+				$conn->query($sql);
+		
 			}
 			$query = 'DELETE FROM cart where user_id='.$username;
 			$result = mysqli_query($conn, $query);

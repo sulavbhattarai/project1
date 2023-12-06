@@ -464,15 +464,7 @@
 		<footer class="ct-footer">
 			<div class="container">
 				<ul class="ct-footer-list text-center-sm">
-					<li>
-		        		<h2 class="ct-footer-list-header">Learn More</h2>
-				        <ul>
-				        	<li>
-				            	<a href="#">About us</a>
-				        	</li>
-				        	
-				        </ul>
-		      		</li>
+					
 		    		
 		    		<li>
 		        		<h2 class="ct-footer-list-header">Services</h2>
@@ -495,39 +487,31 @@
 				        </ul>
 		      		</li>
 		      		
-		      		<li>
-		       			<h2 class="ct-footer-list-header">Our Team</h2>
-				        <ul>
-				          	<li>
-				            	<a href="#">Developers</a>
-				          	</li>
-				          	
-				        </ul>
-		      		</li>
+		      		
 		      		
 		      		<li>
 		        		<h2 class="ct-footer-list-header">Customer Care</h2>
 		        		<ul>
 		          			<li>
-		            			<a href="">Help Centre</a>
+		            			<a href="#">Help Centre</a>
 		          			</li>
 		          			<li>
-					            <a href="" onclick="alert('You can add money in your wallet through coupons. Coupons are avaiable at general stores. Add money using coupon and add products you want to buy in cart. After that press check out button. Products will be deleivered at your door step')" >How to buy?</a>
+					            <a href="#">How to buy?</a>
 					        </li>
 					        <li>
-					        	<a href="" onclick="alert('This feature is not working at the moment. Please try later')" >Track Your Order</a>
+					        	<a href="#">Track Your Order</a>
 					        </li>
 					        <li>
-					        	<a href="" onclick="alert('You can buy coupons from General Stores around your house')" >How to get coupon?</a>
+					        	<a href="#"  >How to get coupon?</a>
 					        </li>
 					        <li>
-					            <a href="" onclick="alert('At your given address the products will be delievered');" >Delivery method</a>
+					            <a href="#" >Delivery method</a>
 					        </li>
 		        		</ul>
 		      		</li>
 				     
 				    <li>
-				        <h2 class="ct-footer-list-header">Estore</h2>
+				        <h2 class="ct-footer-list-header">shipinart</h2>
 				        <ul>
 					        <li>
 					            <a href="#">About Us</a>
@@ -543,44 +527,7 @@
 		    	</ul>
 		    
 
-			    <div class="ct-footer-meta text-center-sm">
-				    <div class="row">
-				        <div class="col-sm-6 col-md-2">
-				        	<img class="footerlogo" alt="logo" src="store_images/logoicon.ico">
-				        </div>
-				        <div class="col-sm-6 col-md-3">
-				          	
-				        </div>
-				        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
-				          	<a href="" target="_blank"><img alt="app store" src="https://www.solodev.com/assets/footer/appstore.png"></a>
-				        </div>
-				        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
-				          	<a href="" target="_blank"><img alt="google play store" src="https://www.solodev.com/assets/footer/androidstore.png"></a>
-				        </div>
-				        <div class="col-sm-6 col-md-3">
-					        <ul class="ct-socials list-unstyled list-inline">
-					            <li>
-					              	<a href="" target="_blank"><img alt="facebook" src="https://www.solodev.com/assets/footer/facebook-white.png"></a>
-					            </li>
-					            <li>
-					              	<a href="" target="_blank"><img alt="twitter" src="https://www.solodev.com/assets/footer/twitter-white.png"></a>
-					            </li>
-					            <li>
-					              	<a href="" target="_blank"><img alt="youtube" src="https://www.solodev.com/assets/footer/youtube-white.png"></a>
-					            </li>
-					            <li>
-					              	<a href="" target="_blank"><img alt="instagram" src="https://www.solodev.com/assets/footer/instagram-white.png"></a>
-					            </li>
-					            <li>
-					              	<a href="" target="_blank"><img alt="pinterest" src="https://www.solodev.com/assets/footer/pinterest-white.png"></a>
-					            </li>
-					        </ul>
-				        </div>
-				    </div>
-			    </div>
-		  	</div>
-		  
-		  	<div class="ct-footer-post">
+			   		  	<div class="ct-footer-post">
 		    	<div class="container">
 		      		<div class="inner-left">
 		        		<ul>
@@ -597,8 +544,8 @@
 		      		</div>
 		      		
 		      		<div class="inner-right">
-		        		<p>Copyright © 2023.&nbsp;<a href="">Privacy Policy</a></p>
-		        		<p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by sulav & suzan <a href="" target="_blank"></a></p>
+		        		<p>Copyright © 2023&nbsp;<a href="#">Privacy Policy</a></p>
+		        		<p><a class="ct-u-motive-color" href="#" target="_blank">Web Design</a> Sulav & suzan </p>
 		      		</div>
 		    	</div>
 		  	</div>

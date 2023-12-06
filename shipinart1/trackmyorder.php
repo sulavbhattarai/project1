@@ -98,7 +98,7 @@
             	<ul>
             		<li><a href="ehome.php" class="active">HOME</a></li>
             		<li><a href="trackmyorder.php"> TRACK MY ORDER</a></li>
-            		<li><a href="#"> ABOUT DEVELOPERS</a></li>
+            		<li><a href="info.php"> ABOUT DEVELOPERS</a></li>
             		
 
             		
@@ -204,7 +204,7 @@
 		        		<h2 class="ct-footer-list-header">Learn More</h2>
 				        <ul>
 				        	<li>
-				            	<a href="#">About us</a>
+				            	<a href="info.php">About us</a>
 				        	</li>
 				        	
 				        </ul>
@@ -235,7 +235,7 @@
 		       			<h2 class="ct-footer-list-header">Our Team</h2>
 				        <ul>
 				          	<li>
-				            	<a href="3">Developers</a>
+				            	<a href="info.php">Developers</a>
 				          	</li>
 				          	
 				        </ul>
@@ -245,10 +245,10 @@
 		        		<h2 class="ct-footer-list-header">Customer Care</h2>
 		        		<ul>
 		          			<li>
-		            			<a href="#">Help Centre</a>
+		            			<a href="">Help Centre</a>
 		          			</li>
 		          			<li>
-					            <a href="#" onclick="alert('You can add money in your wallet through coupons. Coupons are avaiable at general stores. Add money using coupon and add products you want to buy in cart. After that press check out button. Products will be deleivered at your door step')" >How to buy?</a>
+					            <a href="" onclick="alert('You can add money in your wallet through coupons. Coupons are avaiable at general stores. Add money using coupon and add products you want to buy in cart. After that press check out button. Products will be deleivered at your door step')" >How to buy?</a>
 					        </li>
 					        <li>
 					        	<a href="" onclick="alert('This feature is not working at the moment. Please try later')" >Track Your Order</a>
@@ -263,10 +263,10 @@
 		      		</li>
 				     
 				    <li>
-				        <h2 class="ct-footer-list-header">shipinart</h2>
+				        <h2 class="ct-footer-list-header">Estore</h2>
 				        <ul>
 					        <li>
-					            <a href="#">About Us</a>
+					            <a href="info.php">About Us</a>
 					        </li>
 					        <li>
 					            <a href="" onclick="alert('We will not be responsible if you give incorrect address. Products will be deleivered once on user confirmation. If user fails to receive, company is not responsible for it.')" >Trems and Conditions</a>
@@ -284,7 +284,13 @@
 				        <div class="col-sm-6 col-md-2">
 				        	<img class="footerlogo" alt="logo" src="store_images/logoicon.ico">
 				        </div>
-				       
+				        <div class="col-sm-6 col-md-3">
+				          	<address>
+				            	<span>EStore Co.<br></span>
+				            	Arfa Software Technology Park<br>Lahore, Pakistan 53720<br>
+				            	<span>Phone: <a href="tel:5555555555">(000) 000-000</a></span>
+				          	</address>
+				        </div>
 				        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
 				          	<a href="" target="_blank"><img alt="app store" src="https://www.solodev.com/assets/footer/appstore.png"></a>
 				        </div>
@@ -319,20 +325,20 @@
 		      		<div class="inner-left">
 		        		<ul>
 		          			<li>
-		            			<a href="#">FAQ</a>
+		            			<a href="">FAQ</a>
 		          			</li>
 		          			<li>
-		            			<a href="#">News</a>
+		            			<a href="">News</a>
 		          			</li>
 		          			<li>
-		            			<a href="#">Contact Us</a>
+		            			<a href="">Contact Us</a>
 		          			</li>
 		        		</ul>
 		      		</div>
 		      		
 		      		<div class="inner-right">
-		        		<p>Copyright © 2023.&nbsp;<a href="">Privacy Policy</a></p>
-		        		<p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by sulav & suzan <a href="" target="_blank">a></p>
+		        		<p>Copyright © 2019 EstoreCo.&nbsp;<a href="">Privacy Policy</a></p>
+		        		<p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by HMC Co. on <a href="" target="_blank">HMC.com</a></p>
 		      		</div>
 		    	</div>
 		  	</div>

@@ -42,8 +42,7 @@
 		}
 		if($_SESSION['admin'] == true)
 		{
-			echo '<script>window.history.back();</script>';
-			exit;
+			
 		}
 
 
@@ -205,7 +204,7 @@
 
 		<?php
 			$product_id = $_GET['product_id'];
-			$query = 'SELECT icon_name,product_id,product_name,products.category_id,category_name,price,date_added,description FROM products,category WHERE (products.category_id=category.category_id) AND (product_id = '.$product_id.')';
+			$query = 'SELECT icon_name,product_id,product_name,products.category_id,category_name,stock,price,date_added,description FROM products,category WHERE (products.category_id=category.category_id) AND (product_id = '.$product_id.')';
 			$result= mysqli_query($conn,$query);
 			if($result->num_rows == 0)
 			{
@@ -220,6 +219,7 @@
 				$productprice=$row['price'];
 				$productdescription=$row['description'];
 				$image=$row['icon_name'];
+				$stock = $row['stock']
 		?>
 
 		<div>	<style scoped>
@@ -255,12 +255,19 @@
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
-									<span class="review-no ml-2">(41 avis)</span>
+									<span class="review-no ml-2">(41)</span>
 								</div>
 							</div>
 
 							<div class="mb-3 mt-3"> 
-								<span class="h7 text-success">In stock.</span>
+								<span class="h7 text-success"><?php 
+									if($stock>0){
+										echo $stock;
+										echo ' remaining';
+									}else{
+										echo 'out of stock';
+									}
+								?></span>
 							</div>						
 							<div class="mb-3 mt-3"> 
 								<span class="price-title">Price : </span>
@@ -288,9 +295,11 @@
 								'<form method="POST" action="addtocart.php?product_id='.$product_id.'&">
 									<input type="number" min="1" max="10" style="width : 100%" name="quantity" required placeholder="Enter quantity"/>
 									<br>
-									<br>
-									<button type="submit" class="btn btn-lg color-box-waanbii"><i class="fa fa-shopping-cart"></i>Add to cart </button>
-								</form>'
+									<br>';
+									if($stock>0){
+										echo '<button type="submit" class="btn btn-lg color-box-waanbii"><i class="fa fa-shopping-cart"></i>Add to cart </button>';
+									}
+								echo '</form>';
 							?>
 						</div>
 
@@ -299,7 +308,9 @@
 						</div>
 						<hr class="m-0 p-0">
 						<div class="row mb-4 mt-4">
-							Il reste 3 exemplaires du produits.
+							<php
+								echo $stock;
+							?>
 						</div>
 					</aside>
 				</div>
